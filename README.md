@@ -1,14 +1,7 @@
 # Fuzziness-Guided Diagnosis for Decision Tree Repair under Concept Drift
 
-Decision trees are widely used in machine learning due to their interpretability, accuracy, and robustness.
-However, when the underlying data distribution changes—a phenomenon known as concept drift—their performance can degrade significantly.
-
-A common strategy to address this issue is to retrain the model on the newly drifted data. However, this approach does not provide insight into the nature of the change or how to repair the model more effectively.
-In this work, we adopt a previously proposed methodology that first diagnoses the decision tree model to identify components most impacted by the concept drift, and then selectively repairs them.
-Specifically, we propose a novel fuzziness-based diagnosis method that analyzes post-drift instances by considering both the features in each instance.
-
-Evaluation on 57 benchmark datasets demonstrates that our method improves interpretability while maintaining competitive predictive performance compared to the previous method and traditional retraining methods.
-These findings suggest that the proposed approach enables more robust concept drift handling and higher-quality model maintenance.
+Decision trees are widely used in machine learning due to their interpretability, accuracy, and robustness. However, when the underlying data distribution changes—a phenomenon known as concept drift—their performance can degrade significantly. A common strategy to address this issue is to retrain the model on the newly drifted data. However, this approach does not provide insight into the nature of the change or how to repair the model more effectively.
+    In this work, we adopt a previously proposed methodology that first diagnoses the decision tree model to identify components most impacted by the concept drift, and then selectively repairs them. Specifically, we propose a novel fuzziness-based diagnosis method, FUDGE, that analyzes post-drift instances by considering both the features in each instance and the confidence of the model’s. Evaluation on 57 benchmark datasets demonstrates that our method improves interpretability while maintaining competitive predictive performance compared to the previous method and traditional retraining methods. These findings suggest that the proposed approach enables more robust concept drift handling and higher-quality model maintenance.
 
 ## This Repository is listed as:
 - APPETITE - The algorithm, with baselines in it.
